@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Szyfry</string>
+
+    <string name="text_cMorse">Koduj morse\'a</string>
+    <string name="text_dMorse">Dekoduj morse\'a</string>
+    <string name="text_playfair">Szyfr Playfaira</string>
+    <string name="text_save">Zapisz</string>
+    <string name="text_keyName">Nazwa klucza</string>
+    <string name="text_key">Klucz</string>
+    <string name="text_encrypt">Szyfruj</string>
+    <string name="text_decrypt">Deszyfruj</string>
+    <string name="text_copy">Kopiuj</string>
+    <string name="text_paste">Wklej</string>
+    <string name="text_settings">Preferencje</string>
+    <string name="text_others">Inne szyfry</string>
+    <string name="text_newKey">NOWY KLUCZ</string>
+    <string name="text_none" />
+
+    <string name="toast_copy">Skopiowano do schowka</string>
+
+    <string name="hint_inProcess">Dane do przetworzenia</string>
+    <string name="hint_inCode">Tekst do zakodowania</string>
+
+    <string name="ch_middle_dot">•</string>
+    <string name="ch_line">-</string>
+    <string name="ch_slash">/</string>
+    <string name="ch_back"><![CDATA[<-]]></string>
+    <string name="ch_triangle">▽</string>
+    <string name="ch_hamburger">≡</string>
+
+    <string name="title_main">Szyfry</string>
+    <string name="title_others">Inne szyfry</string>
+    <string name="title_dMorse">Dekoduj Morse\'a</string>
+    <string name="title_cMorse">Koduj Morse\'a</string>
+    <string name="title_playfair">Szyfr Playfaira</string>
+    <string name="title_playfairKey">Generowanie klucza</string>
+    <string name="title_setting">Preferencje</string>
+</resources>
