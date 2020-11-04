@@ -10,12 +10,15 @@
 <resources>
     <string-array name="others_names">
         <item>Morse</item>
+        <item>Playfair</item>
     </string-array>
     <string-array name="others_descs">
-        <item><![CDATA[Stworzony w 1838 przez Samuela Morse’a i Alfreda Vaila sposób reprezentacji alfabetu, cyfr i <i>znaków specjalnych</i></br>
+        <item><![CDATA[Stworzony w 1838 przez Samuela Morse’a i Alfreda Vaila sposób reprezentacji alfabetu, cyfr i <i>znaków specjalnych</i><br/>
             za pomocą dźwięków, błysków światła, impulsów elektrycznych lub znaków popularnie zwanych kreską i kropką.]]></item>
+        <item>Szyfr Playfaira</item>
     </string-array>
     <array name="others_imgs">
         <item>@drawable/morse</item>
+        <item>0</item>
     </array>
 </resources>

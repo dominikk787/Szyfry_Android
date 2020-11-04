@@ -13,7 +13,7 @@
             android:id="@+id/PtextKeyName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="3dp"
+            android:layout_marginStart="6dp"
             android:layout_weight="20"
             android:textColor="@color/black"
             android:textSize="18sp" />
