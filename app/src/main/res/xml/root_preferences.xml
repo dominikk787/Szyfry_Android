@@ -1,0 +1,16 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Morse">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/key_morseUnicode"
+            android:summaryOff="@string/settings_textOff_morseUnicode"
+            android:summaryOn="@string/settings_textOn_morseUnicode"
+            android:title="@string/settings_text_morseUnicode" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Szyfr Playfaira">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/key_playfairDev"
+            android:title="@string/settings_text_playfairDev" />
+    </PreferenceCategory>
+</PreferenceScreen>

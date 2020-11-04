@@ -34,5 +34,14 @@
     <string name="title_cMorse">Koduj Morse\'a</string>
     <string name="title_playfair">Szyfr Playfaira</string>
     <string name="title_playfairKey">Generowanie klucza</string>
-    <string name="title_setting">Preferencje</string>
+    <string name="title_settings">Preferencje</string>
+
+    <string name="key_morseUnicode">morse_copy_unicode</string>
+    <string name="key_playfairDev">playfair_dev</string>
+
+    <string name="settings_text_morseUnicode">Kopiuj jako Unicode</string>
+    <string name="settings_textOn_morseUnicode">Lepiej wygląda, dłuższy tekst</string>
+    <string name="settings_textOff_morseUnicode">Gorszy wygląd, krótki tekst</string>
+
+    <string name="settings_text_playfairDev">Tryb deweloperski</string>
 </resources>

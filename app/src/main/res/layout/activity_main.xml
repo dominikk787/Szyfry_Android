@@ -1,66 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.gridlayout.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/Mgrid"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_marginLeft="3dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginRight="3dp"
+    android:layout_marginBottom="3dp"
+    app:alignmentMode="alignMargins"
+    app:columnCount="1">
 
-    <androidx.gridlayout.widget.GridLayout
-        android:id="@+id/grid"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+    <Button
+        android:id="@+id/MbtnCMorse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="3dp"
         android:layout_marginTop="3dp"
         android:layout_marginRight="3dp"
         android:layout_marginBottom="3dp"
-        android:contextClickable="false"
-        app:alignmentMode="alignMargins"
-        app:columnCount="1">
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/text_cMorse"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill"
+        app:layout_rowWeight="1" />
 
-        <Button
-            android:id="@+id/btnCMorse"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="3dp"
-            android:layout_marginTop="3dp"
-            android:layout_marginRight="3dp"
-            android:layout_marginBottom="3dp"
-            android:insetTop="0dp"
-            android:insetBottom="0dp"
-            android:text="@string/text_cMorse"
-            app:layout_columnWeight="1"
-            app:layout_gravity="fill"
-            app:layout_rowWeight="1" />
+    <Button
+        android:id="@+id/MbtnDMorse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/text_dMorse"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill"
+        app:layout_rowWeight="1" />
 
-        <Button
-            android:id="@+id/btnDMorse"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="3dp"
-            android:layout_marginTop="3dp"
-            android:layout_marginRight="3dp"
-            android:layout_marginBottom="3dp"
-            android:insetTop="0dp"
-            android:insetBottom="0dp"
-            android:text="@string/text_dMorse"
-            app:layout_columnWeight="1"
-            app:layout_gravity="fill"
-            app:layout_rowWeight="1" />
-
-        <Button
-            android:id="@+id/btnPlayfair"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="3dp"
-            android:layout_marginTop="3dp"
-            android:layout_marginRight="3dp"
-            android:layout_marginBottom="3dp"
-            android:insetTop="0dp"
-            android:insetBottom="0dp"
-            android:text="@string/text_playfair"
-            app:layout_columnWeight="1"
-            app:layout_gravity="fill"
-            app:layout_rowWeight="1" />
-    </androidx.gridlayout.widget.GridLayout>
-
-</LinearLayout>
+    <Button
+        android:id="@+id/MbtnPlayfair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/text_playfair"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill"
+        app:layout_rowWeight="1" />
+</androidx.gridlayout.widget.GridLayout>

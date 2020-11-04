@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/PtextKeyName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="20"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/PbtnSelKey"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:backgroundTint="#00FFFFFF"
+            android:minWidth="48dp"
+            android:text="@string/ch_triangle"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <ToggleButton
+            android:id="@+id/PtoggleDir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:maxEms="10"
+            android:textOff="@string/text_encrypt"
+            android:textOn="@string/text_decrypt" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider" />
+
+    <EditText
+        android:id="@+id/PinText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="@string/hint_inProcess"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/PoutText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="@string/text_none"
+        android:importantForAutofill="no"
+        android:inputType="none"
+        android:textIsSelectable="true"/>
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/PKeditName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/text_keyName"
+        android:inputType="text"
+        android:padding="6dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:importantForAutofill="no" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <Spinner
+        android:id="@+id/PKspnAb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog" />
+
+    <EditText
+        android:id="@+id/PKeditKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/text_key"
+        android:inputType="text"
+        android:padding="6dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:importantForAutofill="no" />
+
+    <GridView
+        android:id="@+id/PKgridKey"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="horizontal|vertical" />
+
+</LinearLayout>

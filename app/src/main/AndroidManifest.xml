@@ -9,6 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Szyfry">
+        <activity android:name=".OthersActivity"
+            android:label="@string/title_others"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".PlayfairKeyActivity"
+            android:label="@string/title_playfairKey"
+            android:parentActivityName=".PlayfairActivity" />
+        <activity android:name=".PlayfairActivity"
+            android:label="@string/title_playfair"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".DMorseActivity"
+            android:label="@string/title_dMorse"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".CMorseActivity"
+            android:label="@string/title_cMorse"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_settings"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

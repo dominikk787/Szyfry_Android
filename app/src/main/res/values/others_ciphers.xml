@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+    <!ELEMENT resources (string-array, string-array, array)>
+    <!ELEMENT string-array (item+)>
+    <!ELEMENT array (item+)>
+    <!ATTLIST string-array name CDATA #REQUIRED>
+    <!ATTLIST array name CDATA #REQUIRED>
+    <!ELEMENT item (#PCDATA)>
+    ]>
+<resources>
+    <string-array name="others_names">
+        <item>Morse</item>
+    </string-array>
+    <string-array name="others_descs">
+        <item><![CDATA[Stworzony w 1838 przez Samuela Morse’a i Alfreda Vaila sposób reprezentacji alfabetu, cyfr i <i>znaków specjalnych</i></br>
+            za pomocą dźwięków, błysków światła, impulsów elektrycznych lub znaków popularnie zwanych kreską i kropką.]]></item>
+    </string-array>
+    <array name="others_imgs">
+        <item>@drawable/morse</item>
+    </array>
+</resources>
