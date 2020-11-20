@@ -11,14 +11,44 @@
     <string-array name="others_names">
         <item>Morse</item>
         <item>Playfair</item>
+        <item>Sylabiki</item>
     </string-array>
     <string-array name="others_descs">
-        <item><![CDATA[Stworzony w 1838 przez Samuela Morse’a i Alfreda Vaila sposób reprezentacji alfabetu, cyfr i znaków specjalnych
-            za pomocą dźwięków, błysków światła, impulsów elektrycznych lub znaków popularnie zwanych kreską i kropką.]]></item>
-        <item>Szyfr Playfair (czasem nazywany też szyfrem Playfaira) został wymyślony przez sir Charlesa Wheatstone\'a w 1854, a spopularyzowany przez barona Lyona Playfaira.</item>
+        <item><![CDATA[
+            Kod Morse\'a został opracowany przez Samuela Finleya Breeze Morse\'a w 1840.
+            Początkowo alfabet służył do komunikacji przy użyciu telegrafu elektromagnetycznego.
+            Jednak ze względu na wykorzystanie tylko dwóch znaków oraz przerw czasowych alfabet ten nadaje się również do komunikacji poprzez sygnały świetlne, dźwiękowe czy przy pomocy rąk.
+            Obecnie alfabet ten został wyparty przez nowoczesne technologie, ale wciąż jest używany np. w harcerstwie.
+            Zamiana z tradycyjnego alfabetu na alfabet Morse\'a polega na zamianie każdego znaku zgodnie z tabelką lub drzewkiem.
+            Przyjmuje się, że pomiędzy dwoma kolejnymi znakami należy umieścić przerwę, a pomiędzy dwoma wyrazami długą przerwą, którą na komputerze można reprezentować przez podwójny znak przerwy.
+        ]]></item>
+        <item><![CDATA[
+            Szyfr Playfair (czasem nazywany też szyfrem Playfaira) został wymyślony przez sir Charlesa Wheatstone\'a w 1854, a spopularyzowany przez barona Lyona Playfaira.
+        ]]></item>
+        <item><![CDATA[
+            Szyfr Sylabiki potrzebuje klucza do szyfrowania. Taki klucz dzieli się na sylaby, które z kolei tworzą pary liter, dlatego bardzo ważne jest, aby długość klucza była parzysta.
+            Co więcej w kluczu każdy znak powinien wystąpić najwyżej raz. Podczas szyfrowania tekstu sprawdzamy czy sprawdzany znak tekstu jawnego występuje w którejś z par.
+            Jeśli tak to daną literę zamieniamy na powiązaną z nią, a jeśli nie to przepisujemy literkę bez zmian.<br/>
+            <h5>Najpopularniejsze klucze:</h5>
+            <ul>
+                <li>GA-DE-RY-PO-LU-KI</li>
+                <li>KO-NI-EC-MA-TU-RY</li>
+                <li>MA-LI-NO-WE-BU-TY</li>
+                <li>KA-CE-MI-NU-TO-WY</li>
+                <li>MO-TY-LE-CU-DA-KI</li>
+                <li>NO-WE-BU-TY-LI-SA</li>
+                <li>PO-LI-TY-KA-RE-NU</li>
+                <li>BI-TW-AO-CH-MU-RY</li>
+                <li>RE-GU-LA-MI-NO-WY</li>
+                <li>TA-LE-RZ-BI-GO-SU</li>
+                <li>RÓ-ŻO-WE-TU-LI-PA-NY</li>
+                <li>KU-LO-PE-RY-ZA-GI</li>
+            </ul>
+        ]]></item>
     </string-array>
     <array name="others_imgs">
         <item>@drawable/morse</item>
+        <item>0</item>
         <item>0</item>
     </array>
 </resources>

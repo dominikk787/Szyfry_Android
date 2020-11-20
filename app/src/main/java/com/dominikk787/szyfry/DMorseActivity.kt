@@ -24,7 +24,7 @@ class DMorseActivity : AppCompatActivity() {
         setContentView(R.layout.activity_d_morse)
 
         val preferences = PreferenceManager.getDefaultSharedPreferences(this)
-        copyUnicode = preferences.getBoolean("morse_copy_unicode", false)
+        copyUnicode = preferences.getBoolean(getString(R.string.key_morseUnicode), false)
 
         intxt = savedInstanceState?.getString("InTxt", "") ?: ""
 

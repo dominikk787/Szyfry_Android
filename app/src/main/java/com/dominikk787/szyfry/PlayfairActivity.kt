@@ -72,7 +72,7 @@ class PlayfairActivity : AppCompatActivity() {
         dbHelper = PlayfairDBHelper(this)
 
         val preferences = PreferenceManager.getDefaultSharedPreferences(this)
-        devMode = preferences.getBoolean("playfair_dev", false)
+        devMode = preferences.getBoolean(getString(R.string.key_playfairDev), false)
 
         genKeyList()
         PinText.addTextChangedListener(object : TextWatcher {

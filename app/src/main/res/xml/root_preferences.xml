@@ -1,4 +1,13 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Ogólne">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/key_generalUpdates"
+            android:summaryOff="@string/settings_textOff_generalUpdates"
+            android:summaryOn="@string/settings_textOn_generalUpdates"
+            android:title="@string/settings_text_generalUpdates" />
+    </PreferenceCategory>
     <PreferenceCategory android:title="Morse">
         <SwitchPreference
             android:defaultValue="false"

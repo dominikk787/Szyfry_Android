@@ -55,7 +55,7 @@ class OthersActivity : AppCompatActivity() {
                     holder.text2.setCompoundDrawablesWithIntrinsicBounds(null, sd, null, null)
                 }
             }
-            holder.text2.text = HtmlCompat.fromHtml(getItem(position).description, HtmlCompat.FROM_HTML_MODE_LEGACY)
+            holder.text2.text = HtmlCompat.fromHtml(getItem(position).description, HtmlCompat.FROM_HTML_MODE_COMPACT)
             if(position == list.size - 1) holder.div.visibility = View.INVISIBLE
             println("bind $holder")
         }

@@ -12,9 +12,15 @@
     <string name="text_copy">Kopiuj</string>
     <string name="text_paste">Wklej</string>
     <string name="text_settings">Preferencje</string>
-    <string name="text_others">Inne szyfry</string>
+    <string name="text_others">Ściąga</string>
     <string name="text_newKey">NOWY KLUCZ</string>
     <string name="text_none" />
+
+    <string name="text_update_actual">Wersja jest aktualna</string>
+    <string name="text_update_new">Nowa wersja %1$s, aktualna to %2$s</string>
+    <string name="text_update_new_title">Nowa wersja</string>
+    <string name="text_update_open">Otwórz stronę pobierania</string>
+    <string name="text_update_close">Zamknij</string>
 
     <string name="toast_copy">Skopiowano do schowka</string>
 
@@ -29,7 +35,7 @@
     <string name="ch_hamburger">≡</string>
 
     <string name="title_main">Szyfry</string>
-    <string name="title_others">Inne szyfry</string>
+    <string name="title_others">Ściąga</string>
     <string name="title_dMorse">Dekoduj Morse\'a</string>
     <string name="title_cMorse">Koduj Morse\'a</string>
     <string name="title_playfair">Szyfr Playfaira</string>
@@ -38,10 +44,17 @@
 
     <string name="key_morseUnicode">morse_copy_unicode</string>
     <string name="key_playfairDev">playfair_dev</string>
+    <string name="key_generalUpdates">general_updates</string>
 
     <string name="settings_text_morseUnicode">Kopiuj jako Unicode</string>
     <string name="settings_textOn_morseUnicode">Lepiej wygląda, dłuższy tekst</string>
     <string name="settings_textOff_morseUnicode">Gorszy wygląd, krótki tekst</string>
 
     <string name="settings_text_playfairDev">Tryb deweloperski</string>
+
+    <string name="settings_text_generalUpdates">Sprawdzaj aktualizacje tylko przez WiFi</string>
+    <string name="settings_textOn_generalUpdates">Sprawdzaj aktualizacje tylko przez WiFi</string>
+    <string name="settings_textOff_generalUpdates">Sprawdzaj aktualizacje gdy internet jest dostępny</string>
+
+    <string name="update_repo">dominikk787/Szyfry_Android</string>
 </resources>
