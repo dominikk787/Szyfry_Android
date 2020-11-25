@@ -7,10 +7,16 @@ plugins {
 android {
     signingConfigs {
         release {
-            storeFile file('/home/dominik/Android/keys.jks')
-            storePassword 'Arduino'
-            keyAlias 'key0'
-            keyPassword 'Arduino'
+            def props = new Properties()
+
+            def fileInputStream = new FileInputStream(file('signing.properties'))
+            props.load(fileInputStream)
+            fileInputStream.close()
+
+            storeFile = file(props['storeFilePath'])
+            storePassword = props['storePassword']
+            keyAlias = props['keyAlias']
+            keyPassword = props['keyPassword']
         }
     }
     compileSdkVersion 30
@@ -21,7 +27,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
-        versionName "0.1"
+        versionName "0.1.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -30,6 +36,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
     }
     compileOptions {
