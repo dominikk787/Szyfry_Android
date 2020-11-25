@@ -115,7 +115,7 @@ class PlayfairActivity : AppCompatActivity() {
                     }
                     override fun onButtonClickListener(view: View, pos: Int, item: KeyListItem) {
                         println("button click $view at $pos on $item")
-                        val build = AlertDialog.Builder(ContextThemeWrapper(this@PlayfairActivity, R.style.AlertDialogTheme))
+                        val build = AlertDialog.Builder(this@PlayfairActivity)
                         build.apply {
                             setPositiveButton("Edytuj") { dialogInterface, i ->
                                 println("edit key $item $dialogInterface $i")
